@@ -1,0 +1,190 @@
+header{
+	width:100%;
+	height:105px;
+	padding:10px;
+	margin:0;
+	background-color: #B56357;
+	
+}
+body{
+	background-color: white;
+	padding:5px;
+}
+h1{
+ 	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+	background-color: #B56357;
+	color:white;
+}
+.logout{
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	
+	
+}
+.centerbody{
+	width:200px;
+	margin:20px auto;
+	text-align: center;
+}
+.col1{
+	width:20%;
+	float:left;
+	background-color: #EAE3EA;
+	height:100%;
+
+}
+
+col-8{
+	/*width:80%;
+	height:100%;*/
+	background-color:#B4DBC0;
+}
+.col-2{
+	width:20%;
+	height: auto;
+	background-color: #EAE3EA;
+	margin:0;
+	left:0;
+	}
+footer{
+	background-color:#B56357;
+	width:100%;
+	clear:both;
+	color:white;
+	height:70px;
+	text-align: right;
+    position: absolute;
+    bottom:0;
+  margin-top: -180px;
+   position: fixed;
+   left: 0;
+  
+}
+.col-container{
+	display: table; 
+    width: 100%;
+}
+.col{
+	display:table-cell;
+}
+.homeimg{
+	height:200px ;
+	width:300px;
+}
+
+.stickybuttons{
+	float:right;
+	padding :10px;
+	
+}
+.addskill{
+	background-color: #EAE3EA;
+	float:left;
+	padding :10px;
+
+}
+.reqform{
+	background-color: #EAE3EA;
+	float:right;
+	padding:10px;
+}
+.hompgbtn{
+	background-color: #B4DBC0;
+	width:wrap-content;
+	border-color: black;
+
+}
+
+.loginform{
+	justify-content: center;
+	display: inline-block;
+	text-align: center;
+	
+	width:200px;
+	margin:20px auto;
+	
+
+}
+.signup{
+	float:right;
+	display:flex;
+	padding-top: 20px;
+	width:200px;
+	height:50px;
+
+}
+.mid-col{
+	background-color: blue;
+}
+.welcome{
+	float:right;
+	background-color:  #B4DBC0;
+	color:black;
+
+}
+.messagearea{
+	border:1px solid black;
+	width:200px;
+	height:500px;
+}
+.mymessages{
+	color:red;
+
+}
+.homebtn{
+	float:right;
+	 
+}
+.sendmsg{
+	padding :10px;
+	margin :10px;
+	float :right;
+	background-color: #B4DBC0;
+	border: 1px solid black;
+	width:55%;
+	padding-left: 80px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width:40px;
+  height:40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram{
+	 background: #125688;
+  color: white;
+
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google{
+ background: #dd4b39;
+  color: white;
+}
+.categorylist{
+	background-color: white;
+}
